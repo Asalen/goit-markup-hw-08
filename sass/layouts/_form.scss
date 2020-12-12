@@ -16,7 +16,7 @@
 .form-input:-webkit-autofill:hover,
 .form-input:-webkit-autofill:focus {
     -webkit-text-fill-color: $primary-text-color;
-    -webkit-box-shadow: 0 0 0px 1000px $white-color inset;
+    -webkit-box-shadow: 0px 0px 0px 1000px $white-color inset;
 }
 
 .form-input {
@@ -173,7 +173,7 @@
 .email-input:-webkit-autofill:hover,
 .email-input:-webkit-autofill:focus {
     -webkit-text-fill-color: $footer-color;
-    -webkit-box-shadow: 0 0 0px 1000px $hero-footer-color inset;
+    -webkit-box-shadow: 0px 0px 0px 1000px $hero-footer-color inset;
 }
 
 .footer-form {
