@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .footer-link, .form-checkbox {
   display: flex;
   justify-content: center;
@@ -819,7 +818,6 @@ footer {
   color: #757575;
 }
 
-/*    autocomplete- обнуление стилей от браузера*/
 .form-input:-webkit-autofill,
 .form-input:-webkit-autofill:hover,
 .form-input:-webkit-autofill:focus {

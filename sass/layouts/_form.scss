@@ -9,15 +9,8 @@
     top: -16px;
     left: 0;
     @include fonts(400, 12px, 1.16, 0.01em);
-    // font-weight: 400;
-    // font-size: 12px;
-    // line-height: 1.16;
-    // letter-spacing: 0.01em;
     color: $primary-text-color;
 }
-
-
-/*    autocomplete- обнуление стилей от браузера*/
 
 .form-input:-webkit-autofill,
 .form-input:-webkit-autofill:hover,
@@ -92,10 +85,6 @@
 
 .checkbox-label {
     @include fonts(400, 12px, 1.17, 0.03em);
-    // font-weight: 400;
-    // font-size: 14px;
-    // line-height: 1.71;
-    // letter-spacing: 0.03em;
     color: $primary-text-color;
     @include for-size(desktop) {
         font-size: 14px;
@@ -137,9 +126,6 @@
 }
 
 .modal-form {
-    // @include for-size(mobile) {
-    //   padding: 40px;
-    // }
     padding: 40px;
 }
 
@@ -149,11 +135,7 @@
     20px,
     1.5,
     0.03em);
-    // font-weight: 700;
-    // font-size: 20px;
-    // line-height: 1.15;
     text-align: center;
-    // letter-spacing: 0.03em;
     color: $title-text-color;
     @include for-size(desktop) {
         line-height: 1.15;
