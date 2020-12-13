@@ -142,6 +142,7 @@ body {
   }
 }
 
+.site-nav .link:hover::after,
 .site-nav .current::after {
   content: "";
   display: block;
