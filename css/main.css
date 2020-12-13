@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+* {
+  outline: none;
+}
+
 ul {
   list-style-type: none;
 }
